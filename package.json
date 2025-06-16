@@ -18,5 +18,11 @@
   "author": "alideweb",
   "type": "module",
   "main": "dist/index.js",
-  "scripts": {}
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
