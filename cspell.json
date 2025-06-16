@@ -1,3 +1,4 @@
 {
-  "words": ["fullstacksjs", "alideweb"]
+  "words": ["fullstacksjs", "alideweb", "منفی", "میلیارد", "میلیون", "هزار"],
+  "ignorePaths": ["./src/units.ts"]
 }
