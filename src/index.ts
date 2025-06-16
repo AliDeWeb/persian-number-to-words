@@ -1,4 +1,4 @@
-import { hundreds, teens, tens, units } from './units.js';
+import { hundreds, teens, tens, units } from './utils/units/units.js';
 
 function convertThreeDigit(num: number): string {
   if (num === 0) return '';

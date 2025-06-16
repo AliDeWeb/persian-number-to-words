@@ -1,4 +1,4 @@
-type Unit = string[];
+import type { Unit } from './units.d';
 
 export const units: Unit = [
   'صفر',
