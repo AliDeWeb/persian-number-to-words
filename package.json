@@ -23,12 +23,14 @@
     "watch": "tsc -w",
     "lint": "npx eslint ./src",
     "format": "npx prettier . --write",
-    "spell": "cspell \"src\""
+    "spell": "cspell \"src\"",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@fullstacksjs/eslint-config": "^12.3.0",
     "cspell": "^9.1.1",
     "eslint": "^9.29.0",
+    "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   }
