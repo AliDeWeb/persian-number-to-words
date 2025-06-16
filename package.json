@@ -1,0 +1,22 @@
+{
+  "name": "persian-number-to-words",
+  "version": "1.0.0",
+  "keywords": [
+    "number-to-words",
+    "persian",
+    "farsi",
+    "number",
+    "words",
+    "npm",
+    "package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliDeWeb/persian-number-to-words"
+  },
+  "license": "MIT",
+  "author": "alideweb",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {}
+}
