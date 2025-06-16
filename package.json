@@ -20,9 +20,14 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "lint": "npx eslint ./src",
+    "format": "npx prettier . --write"
   },
   "devDependencies": {
+    "@fullstacksjs/eslint-config": "^12.3.0",
+    "eslint": "^9.29.0",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   }
 }
